@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="URI1183" />
+        <module name="uri-1183" />
       </profile>
     </annotationProcessing>
   </component>

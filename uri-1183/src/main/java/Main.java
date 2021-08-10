@@ -42,7 +42,7 @@ import java.util.Scanner;
             }
             for (int i = 0; i < M.length; i++) {
                 for (int j = 0; j < M[i].length; j++) {
-                    if (j > i) soma += M[i][j];
+                    if ((i < 6 && j >= 12 - i) || (i >= 6 && j > i)) soma += M[i][j];
                 }
             }
 
